@@ -1,0 +1,971 @@
+2020-05-04T04:46:50.3179482+01:00  [INF] User profile is available. Using '"C:\Users\flave\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-05-04T04:46:59.9371375+01:00  [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T04:47:11.6232470+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T04:47:16.3160788+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T04:47:16.4721632+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T04:47:16.7141466+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T04:47:16.7310124+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T04:47:16.8551981+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T04:47:17.1820750+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T04:47:24.1477897+01:00 800007f1-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/   (ca22a1cb)
+2020-05-04T04:47:25.6090646+01:00 800007f1-0000-fd00-b63f-84710c7967bb [INF] Request finished in 1539.8265ms 404  (791a596a)
+2020-05-04T05:30:17.0055607+01:00 80000008-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:30:17.0252372+01:00 800007f3-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:30:17.2956093+01:00 800007f3-0000-fd00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:17.2956093+01:00 80000008-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:17.3293651+01:00 800007f3-0000-fd00-b63f-84710c7967bb [INF] Request finished in 304.8099ms 204  (791a596a)
+2020-05-04T05:30:17.5094710+01:00 80000008-0000-fc00-b63f-84710c7967bb [INF] Request finished in 523.0997ms 204  (791a596a)
+2020-05-04T05:30:18.1409889+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:30:18.1846986+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:21.3147026+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T05:30:21.3252538+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T05:30:21.3782928+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T05:30:21.3939769+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-05-04T05:30:21.5066752+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2020-05-04T05:30:21.5105668+01:00 80000522-0001-fb00-b63f-84710c7967bb [INF] Request finished in 3376.1609ms 401  (791a596a)
+2020-05-04T05:30:21.5183818+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:30:21.5200528+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:21.5645067+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T05:30:21.5646896+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T05:30:21.5653730+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T05:30:21.5704137+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-05-04T05:30:21.5707337+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2020-05-04T05:30:21.5712669+01:00 80000524-0001-fb00-b63f-84710c7967bb [INF] Request finished in 52.9368ms 401  (791a596a)
+2020-05-04T05:30:38.0292329+01:00 8000000a-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T05:30:38.0302004+01:00 8000000a-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:38.0312114+01:00 8000000a-0000-fc00-b63f-84710c7967bb [INF] Request finished in 2.2173ms 204  (791a596a)
+2020-05-04T05:30:38.0480771+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 57 (ca22a1cb)
+2020-05-04T05:30:38.0490135+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:38.0517463+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T05:30:38.0518970+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T05:30:38.0524049+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T05:30:38.3689695+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:30:39.1533971+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:30:40.0198075+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T05:30:40.3435816+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE ([a].[UserId] = @__user_Id_0) AND @__user_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:30:40.8037261+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:30:41.3399250+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T05:30:41.4579906+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE ([a].[RoleId] = @__role_Id_0) AND @__role_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:30:43.2394992+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Token], [CreationDate], [ExpiryDate], [Invalidated], [JwtId], [Used], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (65d11854)
+2020-05-04T05:30:43.7173217+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.AuthSuccessResponse"'. (8a1b66c8)
+2020-05-04T05:30:43.7894103+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 5399.054ms (afa2e885)
+2020-05-04T05:30:43.7904684+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T05:30:43.8010969+01:00 80000526-0001-fb00-b63f-84710c7967bb [INF] Request finished in 5753.2548ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:30:43.8706182+01:00 8000000c-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:30:43.8713161+01:00 8000000c-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:43.8716221+01:00 8000000c-0000-fc00-b63f-84710c7967bb [INF] Request finished in 1.1952ms 204  (791a596a)
+2020-05-04T05:30:43.8863480+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:30:43.8883690+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:43.9499927+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:30:44.0051642+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:30:44.0053387+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:30:44.0237271+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:30:44.0268005+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:30:44.0973649+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:30:44.1671644+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:30:44.3429957+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:30:44.3479887+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:30:44.3910635+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 367.1395ms (afa2e885)
+2020-05-04T05:30:44.3911741+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:30:44.3915207+01:00 8000000e-0000-fc00-b63f-84710c7967bb [INF] Request finished in 505.2151ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:30:45.8946020+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:30:45.8958560+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:30:45.8973161+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:30:45.8978288+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:30:45.8979991+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:30:45.8986578+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:30:45.8994822+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:30:45.9600119+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:30:45.9644802+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:30:45.9685361+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:30:45.9701096+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:30:45.9709540+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 72.0838ms (afa2e885)
+2020-05-04T05:30:45.9710701+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:30:45.9713029+01:00 80000010-0000-fc00-b63f-84710c7967bb [INF] Request finished in 77.0596ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:32:01.9074171+01:00 80000012-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:32:01.9082302+01:00 80000012-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:32:01.9091889+01:00 80000012-0000-fc00-b63f-84710c7967bb [INF] Request finished in 1.9019ms 204  (791a596a)
+2020-05-04T05:32:01.9366682+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:32:01.9373717+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:32:01.9395405+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:32:01.9402744+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:01.9405281+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:32:01.9411780+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:32:01.9418792+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:01.9572391+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:32:01.9641872+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:02.1113001+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:02.2442843+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:32:02.2457775+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 304.3144ms (afa2e885)
+2020-05-04T05:32:02.2459296+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:32:02.2465473+01:00 80000014-0000-fc00-b63f-84710c7967bb [INF] Request finished in 309.7418ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:32:02.4663085+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:32:02.4669089+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:32:02.4735674+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:32:02.4745247+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:02.4747980+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:32:02.4761113+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:32:02.4767718+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:02.4832904+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:32:02.4945519+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:02.4986227+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:02.5001421+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:32:02.5013173+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 24.9825ms (afa2e885)
+2020-05-04T05:32:02.5014330+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:32:02.5018184+01:00 80000016-0000-fc00-b63f-84710c7967bb [INF] Request finished in 35.6531ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:32:38.1234420+01:00 80000528-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:32:38.1241740+01:00 80000528-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:32:38.1253136+01:00 80000528-0001-fb00-b63f-84710c7967bb [INF] Request finished in 1.9686ms 204  (791a596a)
+2020-05-04T05:32:38.1671405+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:32:38.1676406+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:32:38.1696774+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:32:38.1702083+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:38.1703600+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:32:38.1711334+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:32:38.1719596+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:38.1895601+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:32:38.1997683+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:38.2170950+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:38.2232152+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:32:38.2241440+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 52.8025ms (afa2e885)
+2020-05-04T05:32:38.2243297+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:32:38.2248475+01:00 8000052a-0001-fb00-b63f-84710c7967bb [INF] Request finished in 57.7792ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:32:38.2539923+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:32:38.2544159+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:32:38.2557394+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:32:38.2561770+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:38.2563122+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:32:38.4079787+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:32:38.4085969+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:32:38.5398754+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:32:38.5625007+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:38.7792725+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:32:39.1355466+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:32:39.1616669+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 753.3154ms (afa2e885)
+2020-05-04T05:32:39.1619105+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:32:39.1701458+01:00 8000052c-0001-fb00-b63f-84710c7967bb [INF] Request finished in 909.7086ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:44:37.6820064+01:00 8000052e-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:44:37.6825019+01:00 8000052e-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:44:37.6830896+01:00 8000052e-0001-fb00-b63f-84710c7967bb [INF] Request finished in 1.329ms 204  (791a596a)
+2020-05-04T05:44:37.6995976+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:44:37.6999750+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:44:37.7016521+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:44:37.7025567+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:44:37.7047245+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:44:37.7058115+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:44:37.7063274+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:44:37.7336674+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:44:39.5854843+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:44:39.6077378+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:44:39.6521282+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:44:39.6543604+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 1948.1738ms (afa2e885)
+2020-05-04T05:44:39.6546030+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:44:39.6553877+01:00 80000018-0000-fc00-b63f-84710c7967bb [INF] Request finished in 1955.6609ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:44:39.6972520+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:44:39.6980198+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:44:39.7008744+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:44:39.7017263+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:44:39.7019614+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:44:39.7030545+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:44:39.7039595+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:44:39.7161303+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:44:39.7248130+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:44:39.7672846+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:44:39.7740788+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:44:39.7756772+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 72.2476ms (afa2e885)
+2020-05-04T05:44:39.7758988+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:44:39.7765201+01:00 80000530-0001-fb00-b63f-84710c7967bb [INF] Request finished in 79.3255ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:51:12.1324811+01:00 8000001a-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:51:12.1330782+01:00 8000001a-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:51:12.1335830+01:00 8000001a-0000-fc00-b63f-84710c7967bb [INF] Request finished in 1.3001ms 204  (791a596a)
+2020-05-04T05:51:12.1416303+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:51:12.1419578+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:51:12.1438374+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:51:12.1443319+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:51:12.1444672+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:51:12.1451431+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:51:12.1457081+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:51:12.1505183+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:51:13.0042955+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:51:13.0240822+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:51:13.0377211+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:51:13.0402378+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 894.5125ms (afa2e885)
+2020-05-04T05:51:13.0404734+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:51:13.0411727+01:00 80000532-0001-fb00-b63f-84710c7967bb [INF] Request finished in 899.4192ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:51:13.0548980+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:51:13.0556178+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:51:13.0582704+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:51:13.0589659+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:51:13.0591731+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:51:13.0600091+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:51:13.0606865+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:51:13.0681735+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:51:13.0739470+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:51:13.0850654+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:51:13.0887382+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:51:13.0901117+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 29.8105ms (afa2e885)
+2020-05-04T05:51:13.0903239+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:51:13.0908749+01:00 8000001c-0000-fc00-b63f-84710c7967bb [INF] Request finished in 36.0258ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:52:23.4949355+01:00 80000534-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:52:23.4951939+01:00 80000534-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:52:23.4955891+01:00 80000534-0001-fb00-b63f-84710c7967bb [INF] Request finished in 0.6871ms 204  (791a596a)
+2020-05-04T05:52:23.5143950+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:52:23.5147155+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:52:23.5156817+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:52:23.5159877+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:52:23.5160759+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:52:23.5164417+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:52:23.5167915+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:52:23.5199567+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:52:23.5243531+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:23.6790795+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:23.7656592+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:52:23.7663791+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 249.7233ms (afa2e885)
+2020-05-04T05:52:23.7667635+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:52:23.7671134+01:00 80000536-0001-fb00-b63f-84710c7967bb [INF] Request finished in 252.7393ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:52:23.8447441+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:52:23.8450622+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:52:23.8473663+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:52:23.8476658+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:52:23.8477545+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:52:23.8481254+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:52:23.8483754+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:52:23.8525008+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:52:23.8548095+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:23.8718540+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:23.8835909+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:52:23.8842715+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 36.0281ms (afa2e885)
+2020-05-04T05:52:23.8843560+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:52:23.8845874+01:00 8000001e-0000-fc00-b63f-84710c7967bb [INF] Request finished in 39.9072ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:52:39.5761848+01:00 80000538-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T05:52:39.5764680+01:00 80000538-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:52:39.5768762+01:00 80000538-0001-fb00-b63f-84710c7967bb [INF] Request finished in 0.7249ms 204  (791a596a)
+2020-05-04T05:52:39.6039829+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 51 (ca22a1cb)
+2020-05-04T05:52:39.6042036+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:52:39.6048334+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T05:52:39.6056465+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:52:39.7809076+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:52:39.7831204+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T05:52:39.8099312+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE ([a].[UserId] = @__user_Id_0) AND @__user_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:39.8408081+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:39.8473193+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T05:52:39.8584273+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE ([a].[RoleId] = @__role_Id_0) AND @__role_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:39.8678392+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Token], [CreationDate], [ExpiryDate], [Invalidated], [JwtId], [Used], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (65d11854)
+2020-05-04T05:52:39.9156953+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.AuthSuccessResponse"'. (8a1b66c8)
+2020-05-04T05:52:39.9163563+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 310.5703ms (afa2e885)
+2020-05-04T05:52:39.9164352+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T05:52:39.9166446+01:00 8000053a-0001-fb00-b63f-84710c7967bb [INF] Request finished in 312.7961ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:52:40.0683783+01:00 80000020-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:52:40.0686283+01:00 80000020-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:52:40.0722400+01:00 80000020-0000-fc00-b63f-84710c7967bb [INF] Request finished in 3.8762ms 204  (791a596a)
+2020-05-04T05:52:40.1436223+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:52:40.1438341+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:52:40.1446472+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:52:40.1449826+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:52:40.1450675+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:52:40.1454375+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:52:40.1456297+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:52:40.1477630+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:52:40.1494901+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:40.1589929+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:52:40.1739954+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:52:40.1742488+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 28.7165ms (afa2e885)
+2020-05-04T05:52:40.1742945+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:52:40.1743803+01:00 80000022-0000-fc00-b63f-84710c7967bb [INF] Request finished in 30.7859ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:53:04.4111431+01:00 80000024-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T05:53:04.4133034+01:00 80000024-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:53:04.4162463+01:00 80000024-0000-fc00-b63f-84710c7967bb [INF] Request finished in 5.2342ms 204  (791a596a)
+2020-05-04T05:53:04.4280425+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 49 (ca22a1cb)
+2020-05-04T05:53:04.4309707+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:53:04.4313948+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T05:53:04.4318128+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:53:04.4506584+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.ErrorResponses.ErrorResponse"'. (8a1b66c8)
+2020-05-04T05:53:04.4560126+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 23.9245ms (afa2e885)
+2020-05-04T05:53:04.4562300+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T05:53:04.4564478+01:00 8000053c-0001-fb00-b63f-84710c7967bb [INF] Request finished in 28.4319ms 400 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:53:18.6559779+01:00 80000026-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T05:53:18.6562620+01:00 80000026-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:53:18.6565666+01:00 80000026-0000-fc00-b63f-84710c7967bb [INF] Request finished in 0.6386ms 204  (791a596a)
+2020-05-04T05:53:18.6919170+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 49 (ca22a1cb)
+2020-05-04T05:53:18.6921591+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:53:18.6924441+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T05:53:18.6927912+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:53:18.7006850+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:53:18.7022301+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T05:53:18.7169332+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.AuthFailedResponse"'. (8a1b66c8)
+2020-05-04T05:53:18.7196375+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 26.7082ms (afa2e885)
+2020-05-04T05:53:18.7197029+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T05:53:18.7198918+01:00 8000053e-0001-fb00-b63f-84710c7967bb [INF] Request finished in 28.0387ms 400 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:54:11.0976784+01:00 80000028-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T05:54:11.0983101+01:00 80000028-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:54:11.0988065+01:00 80000028-0000-fc00-b63f-84710c7967bb [INF] Request finished in 1.3981ms 204  (791a596a)
+2020-05-04T05:54:11.1336054+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 49 (ca22a1cb)
+2020-05-04T05:54:11.1338181+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:54:11.1341316+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T05:54:11.1345044+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:54:11.1469065+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:54:11.1481321+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T05:54:11.2134851+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.AuthFailedResponse"'. (8a1b66c8)
+2020-05-04T05:54:11.2141298+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 79.5116ms (afa2e885)
+2020-05-04T05:54:11.2141933+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T05:54:11.2143314+01:00 8000002a-0000-fc00-b63f-84710c7967bb [INF] Request finished in 80.802ms 400 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:54:47.5378834+01:00 80000540-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T05:54:47.5381731+01:00 80000540-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:54:47.5391602+01:00 80000540-0001-fb00-b63f-84710c7967bb [INF] Request finished in 1.5814ms 204  (791a596a)
+2020-05-04T05:54:47.5623538+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 51 (ca22a1cb)
+2020-05-04T05:54:47.5624905+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:54:47.5628114+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T05:54:47.5631818+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:54:47.5797719+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:54:47.5814686+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T05:54:47.6142769+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE ([a].[UserId] = @__user_Id_0) AND @__user_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:54:47.6279610+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:54:47.6394303+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T05:54:47.6452584+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE ([a].[RoleId] = @__role_Id_0) AND @__role_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:54:47.7628784+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Token], [CreationDate], [ExpiryDate], [Invalidated], [JwtId], [Used], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (65d11854)
+2020-05-04T05:54:47.7698929+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.AuthSuccessResponse"'. (8a1b66c8)
+2020-05-04T05:54:47.7707102+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 207.2437ms (afa2e885)
+2020-05-04T05:54:47.7711202+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T05:54:47.7714724+01:00 8000002c-0000-fc00-b63f-84710c7967bb [INF] Request finished in 209.1956ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:54:47.9829256+01:00 8000002e-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:54:47.9831565+01:00 8000002e-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:54:47.9834051+01:00 8000002e-0000-fc00-b63f-84710c7967bb [INF] Request finished in 0.5453ms 204  (791a596a)
+2020-05-04T05:54:47.9909720+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:54:47.9911166+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:54:47.9919232+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:54:47.9922427+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:54:47.9923211+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:54:47.9926360+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:54:47.9928473+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:54:47.9974844+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:54:47.9998319+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:54:48.0116128+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:54:48.0133570+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:54:48.0139761+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 21.2313ms (afa2e885)
+2020-05-04T05:54:48.0140367+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:54:48.0142550+01:00 80000542-0001-fb00-b63f-84710c7967bb [INF] Request finished in 23.2952ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:54:49.4957225+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:54:49.4958909+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:54:49.4965985+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:54:49.4967865+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:54:49.4968626+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:54:49.4971644+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:54:49.4973767+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:54:49.4998446+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:54:49.5031395+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:54:49.5241554+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:54:49.5257994+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:54:49.5302041+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 32.8969ms (afa2e885)
+2020-05-04T05:54:49.5302788+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:54:49.5312491+01:00 80000030-0000-fc00-b63f-84710c7967bb [INF] Request finished in 35.5299ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:56:14.4527302+01:00 80000544-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:56:14.4528897+01:00 80000544-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:14.4533698+01:00 80000544-0001-fb00-b63f-84710c7967bb [INF] Request finished in 0.7202ms 204  (791a596a)
+2020-05-04T05:56:14.4700662+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:56:14.4702505+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:14.4713533+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:56:14.4715656+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:14.4716430+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:56:14.4720256+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:56:14.4722784+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:14.4756177+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:56:14.4777889+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:14.4879046+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:14.4998921+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:56:14.5004323+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 28.2514ms (afa2e885)
+2020-05-04T05:56:14.5004916+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:56:14.5006950+01:00 80000546-0001-fb00-b63f-84710c7967bb [INF] Request finished in 30.6572ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:56:14.5170555+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:56:14.5172258+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:14.5179130+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:56:14.5181682+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:14.5182367+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:56:14.5189220+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:56:14.5191105+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:14.5216143+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:56:14.5232848+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:14.5256487+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:14.5275110+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:56:14.5276971+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 8.698ms (afa2e885)
+2020-05-04T05:56:14.5277377+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:56:14.5278147+01:00 80000032-0000-fc00-b63f-84710c7967bb [INF] Request finished in 10.7936ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:56:30.6638250+01:00 80000548-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T05:56:30.6640602+01:00 80000548-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:30.6643237+01:00 80000548-0001-fb00-b63f-84710c7967bb [INF] Request finished in 0.571ms 204  (791a596a)
+2020-05-04T05:56:30.6683287+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 57 (ca22a1cb)
+2020-05-04T05:56:30.6684762+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:30.6686973+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T05:56:30.6689921+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:56:30.6732817+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:56:30.6741079+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T05:56:30.6974063+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE ([a].[UserId] = @__user_Id_0) AND @__user_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:30.7044437+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:30.7060840+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T05:56:30.7222388+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE ([a].[RoleId] = @__role_Id_0) AND @__role_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:30.7377148+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Token], [CreationDate], [ExpiryDate], [Invalidated], [JwtId], [Used], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (65d11854)
+2020-05-04T05:56:30.8090369+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.AuthSuccessResponse"'. (8a1b66c8)
+2020-05-04T05:56:30.8098001+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 140.4277ms (afa2e885)
+2020-05-04T05:56:30.8099013+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T05:56:30.8100665+01:00 8000054a-0001-fb00-b63f-84710c7967bb [INF] Request finished in 141.8114ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:56:30.8530900+01:00 8000054c-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:56:30.8534641+01:00 8000054c-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:30.8538588+01:00 8000054c-0001-fb00-b63f-84710c7967bb [INF] Request finished in 0.982ms 204  (791a596a)
+2020-05-04T05:56:30.8672411+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:56:30.8674515+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:30.8681457+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:56:30.8683938+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:30.8684671+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:56:30.8688123+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:56:30.8689700+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:30.8723293+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:56:30.8744249+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:30.8828520+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:30.8847241+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:56:30.8850591+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 16.1739ms (afa2e885)
+2020-05-04T05:56:30.8851127+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:56:30.8851869+01:00 8000054e-0001-fb00-b63f-84710c7967bb [INF] Request finished in 17.9942ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T05:56:34.8584012+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T05:56:34.8587189+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T05:56:34.8592601+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T05:56:34.8595036+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:34.8595750+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T05:56:34.8598833+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T05:56:34.8600252+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T05:56:34.8698340+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T05:56:34.8719067+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:34.9254384+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T05:56:34.9353513+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T05:56:34.9364555+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 76.4546ms (afa2e885)
+2020-05-04T05:56:34.9365399+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T05:56:34.9367261+01:00 80000550-0001-fb00-b63f-84710c7967bb [INF] Request finished in 78.4522ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T06:31:44.8439496+01:00 80000552-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T06:31:44.8441577+01:00 80000552-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T06:31:44.8459468+01:00 80000552-0001-fb00-b63f-84710c7967bb [INF] Request finished in 2.1328ms 204  (791a596a)
+2020-05-04T06:31:44.8460979+01:00 80000c1d-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T06:31:44.8461912+01:00 80000c1d-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T06:31:44.8463839+01:00 80000c1d-0001-fc00-b63f-84710c7967bb [INF] Request finished in 0.2911ms 204  (791a596a)
+2020-05-04T06:31:44.8519022+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T06:31:44.8521024+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T06:31:44.8530097+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T06:31:44.8531823+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T06:31:44.8532523+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T06:31:44.8539801+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T06:31:44.8543510+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T06:31:44.9037573+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T06:31:46.2108848+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T06:31:46.2288908+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T06:31:46.2414040+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T06:31:46.2421462+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 1388.0303ms (afa2e885)
+2020-05-04T06:31:46.2422092+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T06:31:46.2424294+01:00 80000034-0000-fc00-b63f-84710c7967bb [INF] Request finished in 1390.5294ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T06:31:46.2842633+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T06:31:46.2844639+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T06:31:46.2891085+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T06:31:46.2892867+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T06:31:46.2893599+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T06:31:46.2897307+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T06:31:46.2898945+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T06:31:46.2966939+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T06:31:46.2984522+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T06:31:46.3057858+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T06:31:46.3080712+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T06:31:46.3084687+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 18.6548ms (afa2e885)
+2020-05-04T06:31:46.3085718+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T06:31:46.3086478+01:00 80000036-0000-fc00-b63f-84710c7967bb [INF] Request finished in 24.419ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T07:24:37.8593575+01:00 800007f5-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:24:37.8624603+01:00 80000038-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:24:38.0249871+01:00 800007f5-0000-fd00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:38.0295473+01:00 80000038-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:38.0606099+01:00 800007f5-0000-fd00-b63f-84710c7967bb [INF] Request finished in 222.25ms 204  (791a596a)
+2020-05-04T07:24:38.0743687+01:00 80000038-0000-fc00-b63f-84710c7967bb [INF] Request finished in 211.9793ms 204  (791a596a)
+2020-05-04T07:24:38.1320030+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:24:38.1389493+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:38.1983483+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T07:24:38.2111759+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T07:24:38.2158620+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T07:24:38.2271077+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-05-04T07:24:38.2320037+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2020-05-04T07:24:38.2636267+01:00 80000c1f-0001-fc00-b63f-84710c7967bb [INF] Request finished in 131.6531ms 401  (791a596a)
+2020-05-04T07:24:38.3730137+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:24:38.3735782+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:38.4051727+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T07:24:38.4055357+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T07:24:38.4064943+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T07:24:38.4066310+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-05-04T07:24:38.4070280+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2020-05-04T07:24:38.4075103+01:00 8000003a-0000-fc00-b63f-84710c7967bb [INF] Request finished in 35.2887ms 401  (791a596a)
+2020-05-04T07:24:53.4743866+01:00 80000c21-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/login   (ca22a1cb)
+2020-05-04T07:24:53.4746479+01:00 80000c21-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:53.4754671+01:00 80000c21-0001-fc00-b63f-84710c7967bb [INF] Request finished in 1.1368ms 204  (791a596a)
+2020-05-04T07:24:53.5023082+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44355/api/v1/identity/login application/json 57 (ca22a1cb)
+2020-05-04T07:24:53.5024883+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:53.5040562+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T07:24:53.5043207+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T07:24:53.5055342+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (500cc934)
+2020-05-04T07:24:53.5104446+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"Login\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SchoolCloud.Contract.RequestObjs.UserLoginReqObj)" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T07:24:53.5662361+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T07:24:54.4087541+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T07:24:54.4403756+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE ([a].[UserId] = @__user_Id_0) AND @__user_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T07:24:54.4495136+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T07:24:54.4580065+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T07:24:54.4627518+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE ([a].[RoleId] = @__role_Id_0) AND @__role_Id_0 IS NOT NULL" (65d11854)
+2020-05-04T07:24:54.5066850+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Token], [CreationDate], [ExpiryDate], [Invalidated], [JwtId], [Used], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (65d11854)
+2020-05-04T07:24:54.5218937+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.AuthSuccessResponse"'. (8a1b66c8)
+2020-05-04T07:24:54.5224829+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)" in 1011.8288ms (afa2e885)
+2020-05-04T07:24:54.5225468+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.Login (SchoolCloud)"' (99874f2b)
+2020-05-04T07:24:54.5227409+01:00 80000c23-0001-fc00-b63f-84710c7967bb [INF] Request finished in 1020.7737ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T07:24:54.5890111+01:00 80000c25-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:24:54.5891516+01:00 80000c25-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:54.5893340+01:00 80000c25-0001-fc00-b63f-84710c7967bb [INF] Request finished in 0.4091ms 204  (791a596a)
+2020-05-04T07:24:54.5938838+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:24:54.5940023+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:24:54.5946932+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T07:24:54.5949186+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T07:24:54.5949755+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T07:24:54.5959873+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T07:24:54.5962309+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T07:24:54.6196096+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T07:24:54.6218013+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T07:24:54.7108928+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T07:24:54.7131064+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T07:24:54.7142441+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 118.1247ms (afa2e885)
+2020-05-04T07:24:54.7176007+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T07:24:54.7177682+01:00 8000003c-0000-fc00-b63f-84710c7967bb [INF] Request finished in 123.923ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T07:25:06.6130337+01:00 80000c27-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:25:06.6131513+01:00 80000c27-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:25:06.6134554+01:00 80000c27-0001-fc00-b63f-84710c7967bb [INF] Request finished in 0.4543ms 204  (791a596a)
+2020-05-04T07:25:06.6196670+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T07:25:06.6198616+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T07:25:06.6203980+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Successfully validated the token. (60169667)
+2020-05-04T07:25:06.6205207+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T07:25:06.6206383+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Executing endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (500cc934)
+2020-05-04T07:25:06.6209807+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetUserProfile\", controller = \"Identity\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SchoolCloud.Contract.RequestObjs.UserDataRespone]] GetUserProfile()" on controller "Libraryhub.Controllers.V1.IdentityController" ("SchoolCloud"). (122b2fdf)
+2020-05-04T07:25:06.6211328+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-05-04T07:25:06.6242085+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T07:25:06.6266787+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__p_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE ([a].[Id] = @__p_0) AND @__p_0 IS NOT NULL" (65d11854)
+2020-05-04T07:25:06.6313331+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Executing DbCommand [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE ([a].[UserId] = @__userId_0) AND @__userId_0 IS NOT NULL" (65d11854)
+2020-05-04T07:25:06.6338835+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"SchoolCloud.Contract.RequestObjs.UserDataRespone"'. (8a1b66c8)
+2020-05-04T07:25:06.6345198+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Executed action "Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)" in 13.4345ms (afa2e885)
+2020-05-04T07:25:06.6345828+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Executed endpoint '"Libraryhub.Controllers.V1.IdentityController.GetUserProfile (SchoolCloud)"' (99874f2b)
+2020-05-04T07:25:06.6347321+01:00 8000003e-0000-fc00-b63f-84710c7967bb [INF] Request finished in 15.1018ms 200 application/json; charset=utf-8 (791a596a)
+2020-05-04T10:39:04.4494525+01:00  [INF] User profile is available. Using '"C:\Users\flave\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-05-04T10:39:06.6236598+01:00  [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T10:39:11.0385552+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T10:39:11.5333107+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T10:39:11.5570723+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T10:39:11.5662948+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T10:39:11.5679458+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T10:39:11.5696765+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T10:39:11.6501969+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T10:39:12.8155885+01:00 80000c2b-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/swagger/index.html   (ca22a1cb)
+2020-05-04T10:39:12.8210061+01:00 80000c29-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/swagger/index.html   (ca22a1cb)
+2020-05-04T10:39:12.8217125+01:00 80000040-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/   (ca22a1cb)
+2020-05-04T10:39:13.2246156+01:00 80000c29-0001-fc00-b63f-84710c7967bb [INF] Request finished in 409.5005ms 200 text/html;charset=utf-8 (791a596a)
+2020-05-04T10:39:13.2246156+01:00 80000c2b-0001-fc00-b63f-84710c7967bb [INF] Request finished in 410.3015ms 200 text/html;charset=utf-8 (791a596a)
+2020-05-04T10:39:13.3807438+01:00 80000040-0000-fc00-b63f-84710c7967bb [INF] Request finished in 571.7316ms 0  (791a596a)
+2020-05-04T10:39:15.1344661+01:00 80000042-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/swagger/v1/swagger.json   (ca22a1cb)
+2020-05-04T10:39:15.3614671+01:00 80000042-0000-fc00-b63f-84710c7967bb [INF] Request finished in 227.5081ms 200 application/json;charset=utf-8 (791a596a)
+2020-05-04T15:57:15.9133016+01:00  [INF] User profile is available. Using '"C:\Users\flave\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2020-05-04T15:57:17.8952103+01:00  [INF] Entity Framework Core "3.0.2" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-05-04T15:57:20.7779005+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T15:57:21.1574045+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T15:57:21.2138561+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T15:57:21.2157011+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T15:57:21.2177696+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T15:57:21.2202076+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE (([a].[NormalizedName] = @__normalizedName_0) AND ([a].[NormalizedName] IS NOT NULL AND @__normalizedName_0 IS NOT NULL)) OR ([a].[NormalizedName] IS NULL AND @__normalizedName_0 IS NULL)" (65d11854)
+2020-05-04T15:57:21.2899789+01:00  [INF] Executing DbCommand [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsFirstTimeLogin], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[MembershipId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserType]
+FROM [AspNetUsers] AS [a]
+WHERE (([a].[NormalizedEmail] = @__normalizedEmail_0) AND ([a].[NormalizedEmail] IS NOT NULL AND @__normalizedEmail_0 IS NOT NULL)) OR ([a].[NormalizedEmail] IS NULL AND @__normalizedEmail_0 IS NULL)" (65d11854)
+2020-05-04T15:57:21.9679370+01:00 80000044-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T15:57:21.9679370+01:00 80000c2d-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T15:57:22.1292729+01:00 80000044-0000-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T15:57:22.1304466+01:00 80000c2d-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T15:57:22.1873819+01:00 80000c2d-0001-fc00-b63f-84710c7967bb [INF] Request finished in 225.9583ms 204  (791a596a)
+2020-05-04T15:57:22.1873591+01:00 80000044-0000-fc00-b63f-84710c7967bb [INF] Request finished in 225.1372ms 204  (791a596a)
+2020-05-04T15:57:22.2152980+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T15:57:22.2234960+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T15:57:23.2026896+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T15:57:23.2175862+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T15:57:23.2210338+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T15:57:23.2265432+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-05-04T15:57:23.2825656+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2020-05-04T15:57:23.3043013+01:00 80000c2f-0001-fc00-b63f-84710c7967bb [INF] Request finished in 1089.0042ms 401  (791a596a)
+2020-05-04T15:57:23.3087239+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44355/api/v1/identity/profile   (ca22a1cb)
+2020-05-04T15:57:23.3093564+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] CORS policy execution successful. (5409d6ef)
+2020-05-04T15:57:23.3143365+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-05-04T15:57:23.3144834+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T15:57:23.3147638+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'." (48071232)
+2020-05-04T15:57:23.3154771+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] Authorization failed. (b15dd539)
+2020-05-04T15:57:23.3159203+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2020-05-04T15:57:23.3164572+01:00 80000554-0001-fb00-b63f-84710c7967bb [INF] Request finished in 7.939ms 401  (791a596a)
