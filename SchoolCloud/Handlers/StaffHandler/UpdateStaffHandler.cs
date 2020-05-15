@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace SchoolCloud.Handlers.StaffHandler
 {
-    public class UpdateStaffHandler : IRequestHandler<UdateStaffReqCommand, StaffReqResObj>
+    public class UpdateStaffHandler : IRequestHandler<UdateStaffCommand, StaffRegRespObj>
     {
 		private readonly IStaffService _staffService;
 		private readonly ILogger _logger;
@@ -23,7 +23,7 @@ namespace SchoolCloud.Handlers.StaffHandler
 			_staffService = staffService;
 			_logger = logger;
 		}
-        public async Task<StaffReqResObj> Handle(UdateStaffReqCommand request, CancellationToken cancellationToken)
+        public async Task<StaffRegRespObj> Handle(UdateStaffCommand request, CancellationToken cancellationToken)
         {
 			try
 			{
@@ -34,7 +34,7 @@ namespace SchoolCloud.Handlers.StaffHandler
 				#region Log error 
 				var errorCode = ErrorID.Generate(4);
 				_logger.LogInformation($"Error ID : UpdateStaffHandler{errorCode} Ex : {ex?.Message ?? ex?.InnerException?.Message} ErrStack : {ex?.StackTrace}");
-				return new StaffReqResObj 
+				return new StaffRegRespObj 
 				{ 
 					
 					Status = new APIResponseStatus

@@ -42,7 +42,7 @@ namespace SchoolCloud.Contract.RequestObjs
         public string MotherPhone { get; set; }
     }
 
-    public class StaffReqResObj
+    public class StaffRegRespObj
     {
         public int StaffId { get; set; }
         public APIResponseStatus Status { get; set; }

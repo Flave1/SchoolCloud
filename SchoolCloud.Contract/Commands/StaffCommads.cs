@@ -6,7 +6,7 @@ using System.Text;
 
 namespace SchoolCloud.Contract.Commands
 {
-    public class UdateStaffReqCommand : IRequest<StaffReqResObj>
+    public class UdateStaffCommand : IRequest<StaffRegRespObj>
     {
         public string UserId { get; set; }
         public string Email { get; set; }

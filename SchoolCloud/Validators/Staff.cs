@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using SchoolCloud.Contract.Commands;
 using SchoolCloud.Contract.RequestObjs;
 using System;
 using System.Collections.Generic;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace SchoolCloud.Validators
 {
-    public class AddStaffReqObjValidator : AbstractValidator<AddStaffReqObj> {
-        public AddStaffReqObjValidator()
+    public class UdateStaffCommandValidator : AbstractValidator<UdateStaffCommand> {
+        public UdateStaffCommandValidator()
         {
             RuleFor(x => x.Email).EmailAddress().NotEmpty();
             RuleFor(x => x.UserId).NotEmpty();

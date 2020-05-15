@@ -6,6 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Handlers\Class\**" />
+    <Compile Remove="Handlers\PortalSetting\**" />
+    <Compile Remove="Handlers\Student\**" />
+    <Content Remove="Handlers\Class\**" />
+    <Content Remove="Handlers\PortalSetting\**" />
+    <Content Remove="Handlers\Student\**" />
+    <EmbeddedResource Remove="Handlers\Class\**" />
+    <EmbeddedResource Remove="Handlers\PortalSetting\**" />
+    <EmbeddedResource Remove="Handlers\Student\**" />
+    <None Remove="Handlers\Class\**" />
+    <None Remove="Handlers\PortalSetting\**" />
+    <None Remove="Handlers\Student\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Data\Migrations\20200428024651_UserMigration.cs" />
     <Compile Remove="Data\Migrations\20200428024651_UserMigration.Designer.cs" />
     <Compile Remove="Data\Migrations\20200429080840_UpdatedAppUser.cs" />
@@ -29,6 +44,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.2" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.5.0" />
+    <PackageReference Include="NLog" Version="4.7.0" />
     <PackageReference Include="Ocelot" Version="15.0.6" />
     <PackageReference Include="Polly" Version="7.2.0" />
     <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.2-dev-10272" />
@@ -46,9 +62,7 @@
 
 
   <ItemGroup>
-    <Folder Include="Handlers\Class\" />
-    <Folder Include="Handlers\Student\" />
-    <Folder Include="Handlers\PortalSetting\" />
+    <Folder Include="LogHandler\LogFiles\" />
     <Folder Include="Logs\" />
   </ItemGroup>
 
