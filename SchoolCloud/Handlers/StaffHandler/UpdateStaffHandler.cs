@@ -33,7 +33,7 @@ namespace SchoolCloud.Handlers.StaffHandler
 			{
 				#region Log error 
 				var errorCode = ErrorID.Generate(4);
-				_logger.LogInformation($"Error ID : UpdateStaffHandler{errorCode} Ex : {ex?.Message ?? ex?.InnerException?.Message} ErrStack : {ex?.StackTrace}");
+				_logger.LogInformation($"Error ID : {errorCode} Ex : {ex?.Message ?? ex?.InnerException?.Message} ErrStack : {ex?.StackTrace}");
 				return new StaffRegRespObj 
 				{ 
 					
@@ -43,7 +43,7 @@ namespace SchoolCloud.Handlers.StaffHandler
 						{
 							FriendlyMessage = "Error occured!! Please tyr again later",
 							MessageId = errorCode, 
-							TechnicalMessage = $"Error ID : UpdateStaffHandler{errorCode} Ex : {ex?.Message ?? ex?.InnerException?.Message} ErrStack : {ex?.StackTrace}"
+							TechnicalMessage = $"Error ID : {errorCode} Ex : {ex?.Message ?? ex?.InnerException?.Message} ErrStack : {ex?.StackTrace}"
 						}
 					}
 				};
